@@ -1,0 +1,141 @@
+.iconee{
+    margin-top: 30px;
+    width: 100px;
+    height: 100px;
+}
+
+.background {
+    /* background-image: url("/assets/photos/walpep.jpg"); */
+    background: linear-gradient(135deg, #a1c4b0c1, #7d4f2c68);
+    /* background: linear-gradient(120deg,#B0E0E6,#C71585); */
+    background-size: cover;      /* Ensures the image covers the full element */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    height: 100vh;               /* Sets height to viewport height */
+    width: 100vw;                /* Sets width to viewport width */
+    margin: 0;                   /* Removes any default body margin */
+    overflow: hidden;            /* Prevents scrolling from small gaps */
+}
+.overlay{
+   text-align: center;
+   
+  position: relative;
+
+  
+
+ margin-top: 50px;
+    
+}
+
+.Logo{
+    width: 140px;
+    height: 90px;
+    margin-top: -20px;
+    border: 1px solid #ffffff;
+    background-color: antiquewhite;
+    border-radius: 50px;
+    opacity: 0.8;
+    margin-bottom: 10px;
+}
+.Title{
+   /* padding-bottom: 10px; */
+   margin-top: 8px;
+   font-family: 'Courier New', Courier, monospace;
+   color: #f5f3f3;
+   font-size: 28px;
+   /* background-image: url("/assets/photos/hachira5.jpg");
+  
+   -webkit-text-fill-color: transparent;
+   -webkit-background-clip: text; */
+   
+}
+
+.categories {
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Creates 3 equal columns */
+    gap: 10px ; /* Optional: Space between items */
+    row-gap: 25px; 
+    padding-left: 3px;
+}
+.iconee2{
+    /* margin-top: 0px; */
+    width: 90px;
+    height: 90px;
+    border-radius: 60px;  
+}
+
+.Container{
+    width: 125px;
+    height: 125px;
+    padding-right: 14px;
+    /* border: 1px solid #ffffff; */
+}
+.des{
+    padding-top: 10px;
+    color: #000000;
+    font-size: 15px;
+    font-family: 'cursive', monospace, sans-serif;
+    text-transform: uppercase;
+    
+    letter-spacing: 1px; 
+}
+
+@media (max-height: 745px) {
+   
+
+    .overlay{
+    
+     
+       
+     
+      margin-top: 30px;
+         
+     }
+    
+     .Logo{
+        width: 130px;
+        height: 80px;
+        margin-top: -20px;
+       
+        margin-bottom: 10px;
+    }
+    .Title{
+        /* padding-bottom: 10px; */
+        margin-top: 8px;
+        
+        font-size: 25px;
+        /* background-image: url("/assets/photos/hachira5.jpg");
+       
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text; */
+        
+     }
+     .categories {
+        padding-top: 10px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); /* Creates 3 equal columns */
+        gap: 7px ; /* Optional: Space between items */
+        row-gap: 17px; 
+    }
+
+    .iconee2{
+        /* margin-top: 0px; */
+        width: 75px;
+        height: 75px;
+        border-radius: 60px;  
+    }
+    .Container{
+        width: 100px;
+        height: 100px;
+        padding-left: 18px;
+        /* border: 1px solid #ffffff; */
+    }
+    .des{
+        padding-top: 5px;
+        color: #000000;
+        font-size: 11px;
+        font-family: 'cursive', monospace, sans-serif;
+        text-transform: uppercase;
+    }
+  }
