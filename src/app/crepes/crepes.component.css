@@ -153,6 +153,14 @@
    /* Use fixed position to stick the button to the viewport */
     bottom: 70px;     /* Distance from the bottom of the page */
   
-   
+    background-color: rgb(255, 255, 255);
+    color: black;
+  
+    font-weight: bold;
+    padding: 5px 10px; 
+    border-radius: 30px;  
+    font-size: 12px;  
+    z-index: 1000; 
+    opacity: 0.7;
   }
 }
