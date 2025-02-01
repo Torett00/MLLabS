@@ -26,7 +26,13 @@
  margin-top: 50px;
     
 }
-
+.BY{
+    color: rgb(36, 31, 31);
+ margin-top: 15px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    font-size: small;
+    margin-left: 15px;
+    font-style:oblique;
+}
 .Logo{
     width: 140px;
     height: 90px;
