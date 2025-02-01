@@ -9,6 +9,6 @@ import { Router } from '@angular/router';
 export class PatiseriesComponent {
   constructor(private router: Router) {}
   goToMenu() {
-    this.router.navigate(['/home2']); // Replace '/categories' with your desired route
+    this.router.navigate(['']); // Replace '/categories' with your desired route
   }
 }
