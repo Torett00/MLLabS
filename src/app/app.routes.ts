@@ -13,11 +13,12 @@ import { CocktailsComponent } from './cocktails/cocktails.component';
 import { PatiseriesComponent } from './patiseries/patiseries.component';
 import { MojitosetjusComponent } from './mojitosetjus/mojitosetjus.component';
 import { EntreeComponent } from './entree/entree.component';
+import { Menu1Component } from './menu1/menu1.component';
 
 
 export const routes: Routes = [
   
-  { path: 'home2' , component: Home2Component},
+  { path: '' , component: Home2Component},
 
   { path: 'thes' , component: ThesComponent},
   { path: 'pizza' , component: PizzaComponent},
@@ -37,7 +38,7 @@ export const routes: Routes = [
    { path: 'mojitos' , component: MojitosetjusComponent},
 
    { path: 'entree' , component: EntreeComponent},
-
+   { path: 'menu1' , component: Menu1Component},
    
 ];
 

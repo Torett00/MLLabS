@@ -24,12 +24,13 @@ import { PatiseriesComponent } from './patiseries/patiseries.component';
 import { MojitosetjusComponent } from './mojitosetjus/mojitosetjus.component';
 import { EntreeComponent } from './entree/entree.component';
 import { AppRoutingModule } from './app.routes';
-import { TessssstComponent } from './tessssst/tessssst.component';
+import { Menu1Component } from './menu1/menu1.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    TessssstComponent,
+    Menu1Component,
    
         
 
