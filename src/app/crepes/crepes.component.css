@@ -151,8 +151,8 @@
   }
   .buttonADDd{
    /* Use fixed position to stick the button to the viewport */
-    bottom: 70px;     /* Distance from the bottom of the page */
-  
+    bottom: 82px;     /* Distance from the bottom of the page */
+  opacity: 0.5;
     background-color: rgb(255, 255, 255);
     color: black;
   
