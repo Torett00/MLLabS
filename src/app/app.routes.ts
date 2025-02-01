@@ -14,6 +14,7 @@ import { PatiseriesComponent } from './patiseries/patiseries.component';
 import { MojitosetjusComponent } from './mojitosetjus/mojitosetjus.component';
 import { EntreeComponent } from './entree/entree.component';
 
+
 export const routes: Routes = [
   
   { path: 'home2' , component: Home2Component},
@@ -36,7 +37,8 @@ export const routes: Routes = [
    { path: 'mojitos' , component: MojitosetjusComponent},
 
    { path: 'entree' , component: EntreeComponent},
-  
+
+   
 ];
 
 

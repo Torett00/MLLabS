@@ -24,11 +24,12 @@ import { PatiseriesComponent } from './patiseries/patiseries.component';
 import { MojitosetjusComponent } from './mojitosetjus/mojitosetjus.component';
 import { EntreeComponent } from './entree/entree.component';
 import { AppRoutingModule } from './app.routes';
+import { TessssstComponent } from './tessssst/tessssst.component';
 
 @NgModule({
   declarations: [
     AppComponent,
- 
+    TessssstComponent,
    
         
 
