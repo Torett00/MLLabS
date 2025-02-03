@@ -9,6 +9,22 @@ import { Router } from '@angular/router';
 export class Home2Component {
 
   constructor(private router: Router) {} 
+
+  navigateToFacebock(): void {
+   
+    // 
+    //  // Redirect to 'target' route
+
+   
+      window.open('https://www.facebook.com/profile.php?id=100063595867837', '_blank');
+  
+  }
+  navigateToInsta(): void {
+   
+    //   // Redirect to 'target' route
+    window.open('https://www.instagram.com/cafepizzeriamemories/', '_blank');
+  }
+
   navigateToCafe(): void {
     this.router.navigate(['/menu1']);  // Redirect to 'target' route
   }

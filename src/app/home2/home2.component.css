@@ -55,6 +55,16 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    font-size: smal
    -webkit-background-clip: text; */
    
 }
+.insta{
+    position: relative;
+    top: 25px;
+
+}
+.face{
+    position: relative;
+    top: 25px;
+
+}
 
 .categories {
     padding-top: 10px;
